@@ -5,22 +5,21 @@
 # ARCHITECTURE MVC
 Découper les différentes étapes d'une architecture MVC avec node et mongo
 
-Ce chapitre s'inscrit dans le module **Node MVC et MongoDB**
+Ce chapitre s'inscrit dans le module **Node MVC et SQLite**
 
-1. [ ] [Node MVC MongoDB étape 1](https://github.com/simplonco/node-mvc-mongodb-step1)
+1. [ ] [Node MVC MongoDB étape 1](https://github.com/simplonco/node-mvc-sqlite-step1)
     
-2. [x] [Node MVC MongoDB étape 2](https://github.com/simplonco/node-mvc-mongodb-step2)
+2. [x] [Node MVC MongoDB étape 2](https://github.com/simplonco/node-mvc-sqlite-step2)
     
-3. [ ] [Node MVC MongoDB étape 3](https://github.com/simplonco/node-mvc-mongodb-step3)
+3. [ ] [Node MVC MongoDB étape 3](https://github.com/simplonco/node-mvc-sqlite-step3)
 
-Il existe un [module identique avec SQLite](https://github.com/simplonco/node-mvc-sqlite-step1).
+Il existe un [module identique avec MongoDB](https://github.com/simplonco/node-mvc-mongodb-step1).
 
 Vous pouvez trouver ce module dans les parcours suivants :
 
 + Développeur Web Fullstack
 
 ------------
-![architecture](readme/architecture.jpg)
 
 
 MVC, qu’est-ce que c’est ?
@@ -64,7 +63,7 @@ On va donc commencer par bien **séparer les différents espaces** ( salle, cuis
 Ne pas enfermer notre server et son menu (route) dans un des espaces afin qu’il puisse accéder librement à tous.
 On a donc nos dossiers :
 
-+ _public_ qui contient un index.html qui sera plus tard l'équivalent de nos _views_ ([...](https://github.com/simplonco/node-mvc-mongodb-step3))
++ _public_ qui contient un index.html qui sera plus tard l'équivalent de nos _views_ ([...](https://github.com/simplonco/node-mvc-sqlite-step3))
 + _api_ qui contient nos _controllers_
 + et _database_ qui contient _nos models_
 
@@ -75,4 +74,4 @@ Et enfin nos fichiers _server.js_ et _routes.js_ à l’extérieur.
 <img src="readme/skeleton.png" width="225">
 
 
-Mais comment exactement s’éxecute le **[traitement de cette requête](https://github.com/simplonco/node-mvc-mongodb-step2)** ?
+Mais comment exactement s’éxecute le **[traitement de cette requête](https://github.com/simplonco/node-mvc-sqlite-step2)** ?
